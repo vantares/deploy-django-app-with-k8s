@@ -16,13 +16,6 @@ Clone this repo.
 git clone https://bitbucket.org/devsu/demo-devops-python.git
 ```
 
-Create a virtual environment to install dependencies and activate it.
-
-```bash
-virtualenv env
-source env/bin/activate
-```
-
 Install dependencies.
 
 ```bash
@@ -35,6 +28,12 @@ Migrate database
 py manage.py makemigrations
 py manage.py migrate
 ```
+
+### Database
+
+The database is generated as a file in the main path when the project is first run, and its name is `db.sqlite3`.
+
+Consider giving access permissions to the file for proper functioning.
 
 ## Usage
 

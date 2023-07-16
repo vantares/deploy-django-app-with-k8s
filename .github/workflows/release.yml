@@ -2,8 +2,10 @@ name: Publishing images to Docker Hub and GitHub Packages
 
 on:
   push:
-    branches: ['release']
-
+    branches:
+      - 'releases/**'
+  release:
+      types: [published]
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}

@@ -137,3 +137,22 @@ If the user id does not exist, we will receive status 404 and the following mess
 ## License
 
 Copyright © 2023 Devsu. All rights reserved.
+
+Developer Documentation
+
+Docker image create using DockerFile
+the image is public accesible on DockerHub
+
+https://hub.docker.com/repository/docker/vantares/docker-django-app/general
+
+On GitHub Packages in:
+https://github.com/users/vantares/packages/container/package/docker-django-app
+
+Workflows created:
+
+- Build and push
+- Release
+- Lint code check with flake8
+- Synk security scan
+
+Application deployed to EKS
